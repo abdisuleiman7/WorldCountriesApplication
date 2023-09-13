@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 7.0.x
     - name: Install dependencies
-      run: dotnet restore Template.API.Rest/Template.API.Rest.sln
+      run: dotnet restore Template.API.Rest/Countries.API.sln
     - name: Build
-      run: dotnet build Template.API.Rest/Template.API.Rest.sln --no-restore
+      run: dotnet build Template.API.Rest/Countries.API.sln --no-restore
     - name: Run Dotnet Test
-      run: dotnet test Template.API.Unittests/Template.API.Unittests.csproj --no-restore --verbosity normal
+      run: dotnet test Template.API.Unittests/Countries.API.Unittests.csproj --no-restore --verbosity normal
