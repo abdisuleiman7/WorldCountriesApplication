@@ -24,4 +24,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Countries.API.Infrastructure\Countries.API.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
